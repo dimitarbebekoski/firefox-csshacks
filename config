@@ -1,0 +1,24 @@
+#include ./includes/set
+#include ./includes/devices/*put
+#include ./includes/mode
+#include ./includes/bindsym
+#include ./includes/exec
+#include ./includes/for_window
+#include ./includes/assign
+
+include ./includes/*
+
+floating_modifier mod4 normal
+
+workspace_layout tabbed
+
+default_border none
+default_floating_border none
+titlebar_border_thickness 0
+titlebar_padding 0
+font pango:monospace 0
+
+seat seat0 xcursor_theme whiteglass 18
+
+include /etc/sway/config.d/*
+
