@@ -1,12 +1,12 @@
-#include ./includes/set
-#include ./includes/devices/*put
-#include ./includes/mode
-#include ./includes/bindsym
-#include ./includes/exec
-#include ./includes/for_window
-#include ./includes/assign
+include ./includes/set
+include ./includes/devices/*put
+include ./includes/mode
+include ./includes/bindsym
+include ./includes/exec
+include ./includes/for_window
+include ./includes/assign
 
-include ./includes/*
+#include ./includes/*
 
 floating_modifier mod4 normal
 
